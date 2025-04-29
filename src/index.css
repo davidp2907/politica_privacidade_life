@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-fadeIn {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Typography improvements */
+body {
+  @apply text-gray-900 antialiased;
+}
+
+.prose h2 {
+  @apply text-gray-900 font-semibold mt-8 mb-4;
+}
+
+.prose p {
+  @apply my-4 text-gray-700 leading-relaxed;
+}
+
+.prose ul {
+  @apply my-4 space-y-2;
+}
+
+.prose a {
+  @apply text-blue-600 hover:text-blue-800 transition-colors;
+}
+
+.prose hr {
+  @apply my-8 border-gray-200;
+}
