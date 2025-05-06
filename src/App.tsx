@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
       <div className="bg-white rounded-xl shadow-lg max-w-md w-full p-6 sm:p-8 transition-all hover:shadow-xl">
-        <h1 className="text-2xl font-bold text-gray-900 mb-4">Lifenergy App</h1>
+        <h1 className="text-2xl font-bold text-gray-900 mb-4">Política de Pricidade</h1>
         <p className="text-gray-600 mb-6">
           Bem-vindo ao Lifenergy App. Antes de continuar, leia nossa política de privacidade para entender como tratamos seus dados.
         </p>
